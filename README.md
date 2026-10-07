@@ -15,16 +15,26 @@ Passionate Mechanical Engineer specializing in **Test Bench Design, Pneumatic Ac
 
 ## 🚀 Featured Engineering Projects
 
-### 1. Multi-Station Pneumatic Reliability & Climatic Test Rig
-> **Objective:** Engineered and commissioned a 10-station accelerated life testing (ALT) setup to validate pneumatic and mechanical components across a 45-day continuous duty cycle inside an environmental chamber.
+### 🚀 Automated Modular Pneumatic Reliability & Climatic Test System
 
-![Pneumatic Rig CAD](assets/pneumatic_rig/cad_assembly.png)
+> **Project Scope:** Designed and built a modular accelerated life testing (ALT) setup to qualify 20 medical pneumatic sub-assemblies (air compressors, molded reservoirs, solenoids) across a **simulated 5-year operational lifecycle (365,000 pressure cycles)** at $40^\circ\text{C}$.
 
-#### 🔧 Technical Highlights:
-* **Rig Construction:** Designed a rigid, modular frame in SolidWorks using structural aluminum extrusions (T-slot profiles) optimized for thermal stability.
-* **Pneumatic Loop Integration:** Sized and plumbed air compressors, pressure reservoirs, and solenoid valve manifolds to deliver synchronized cyclic pressure cycles.
-* **Data Acquisition (DAQ):** Integrated pressure sensors to monitor cycle stability, leakage rates, and failure thresholds.
-* **Risk Analysis (FMEA):** Conducted design and process FMEAs to mitigate premature fixture and component failure during the 45-day test run.
+---
+
+### 🔧 Mechanical & Test Bench Architecture:
+* **Chamber Envelope Optimization:** Designed a compact 10-UUT structural aluminum rack ($938 \times 688 \times 688\text{ mm}$) to maximize testing density within standard climatic chamber dimensions.
+* **Parallel Dual-Chamber Execution:** Built and commissioned **two identical 10-unit test rigs across two thermal chambers** to evaluate the full $n=20$ statistical sample size simultaneously.
+* **Pneumatic Loop & Closed-Loop Control:** Integrated automated $24\text{ V}$ power switching and solenoid manifolds to generate high-frequency cyclic pressure pulses (**$2600\text{ mbar} \leftrightarrow 2800\text{ mbar}$**).
+* **Automated Data Acquisition (DAQ):** Programmed an Arduino-based DAQ system logging continuous pressure decay curves, cycle counts, and thermal stability.
+* **Leakage Acceptance Criteria:** Enforced automated 60-second pressure decay measurements every 30 cycles to verify leak rates remained strictly below **$<3.4\text{ mbar/min}$ @ $2.8\text{ bar}$**.
+
+---
+
+### 📊 Key Technical Metrics:
+* **Sample Size:** 20 UUTs total ($2\times$ 10-unit modular test rigs in parallel chambers)
+* **Cyclic Endurance:** 365,000 pressure pulses per unit (simulating 5 years / 1,825 clinical treatments)
+* **Test Conditions:** Continuous 45-day operation at $40^\circ\text{C}$ ambient temperature
+* **Acceptance Benchmarks:** Pressurization time $<40\text{ sec}$ to $2800\text{ mbar}$, leak decay $<3.4\text{ mbar/min}$
 
 ---
 

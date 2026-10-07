@@ -15,27 +15,43 @@ Passionate Mechanical Engineer specializing in **Test Bench Design, Pneumatic Ac
 
 ## 🚀 Featured Engineering Projects
 
-### 🚀 Automated Modular Pneumatic Reliability & Climatic Test System
+---
 
-> **Project Scope:** Designed and built a modular accelerated life testing (ALT) setup to qualify 20 medical pneumatic sub-assemblies (air compressors, molded reservoirs, solenoids) across a **simulated 5-year operational lifecycle (365,000 pressure cycles)** at $40^\circ\text{C}$.
+## 🌟 Featured Deep Dive: Automated Modular Pneumatic Reliability Test System
+
+[![View Full PDF Report](https://img.shields.io/badge/📄_Download_Complete_Case_Study-PDF-0284C7?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](Sachin_Salaskar_Pneumatic_Test_Rig_Case_Study.pdf)
+[![Status](https://img.shields.io/badge/Validation_Status-Passed_365k_Cycles-success?style=for-the-badge)]()
+
+> **Project Highlight:** Designed and commissioned a modular Accelerated Life Testing (ALT) rig to qualify 20 pneumatic sub-assemblies (air compressors, reservoirs, solenoids) across a **simulated 5-year operational lifecycle (365,000 pressure pulses)** in parallel $40^\circ\text{C}$ thermal chambers.
 
 ---
 
-### 🔧 Mechanical & Test Bench Architecture:
-* **Chamber Envelope Optimization:** Designed a compact 10-UUT structural aluminum rack ($938 \times 688 \times 688\text{ mm}$) to maximize testing density within standard climatic chamber dimensions.
-* **Parallel Dual-Chamber Execution:** Built and commissioned **two identical 10-unit test rigs across two thermal chambers** to evaluate the full $n=20$ statistical sample size simultaneously.
-* **Pneumatic Loop & Closed-Loop Control:** Integrated automated $24\text{ V}$ power switching and solenoid manifolds to generate high-frequency cyclic pressure pulses (**$2600\text{ mbar} \leftrightarrow 2800\text{ mbar}$**).
-* **Automated Data Acquisition (DAQ):** Programmed an Arduino-based DAQ system logging continuous pressure decay curves, cycle counts, and thermal stability.
-* **Leakage Acceptance Criteria:** Enforced automated 60-second pressure decay measurements every 30 cycles to verify leak rates remained strictly below **$<3.4\text{ mbar/min}$ @ $2.8\text{ bar}$**.
+### 📑 3-Page Engineering Case Study Preview
+*Click on any slide to open the full-resolution document, or [click here to download the PDF](Sachin_Salaskar_Pneumatic_Test_Rig_Case_Study.pdf).*
+
+<p align="center">
+  <a href="Sachin_Salaskar_Pneumatic_Test_Rig_Case_Study.pdf">
+    <img src="slide1_preview.png" width="30%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="Slide 1 Preview" />
+  </a>
+  <a href="Sachin_Salaskar_Pneumatic_Test_Rig_Case_Study.pdf">
+    <img src="slide2_preview.png" width="30%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="Slide 2 Preview" />
+  </a>
+  <a href="Sachin_Salaskar_Pneumatic_Test_Rig_Case_Study.pdf">
+    <img src="slide3_preview.png" width="30%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="Slide 3 Preview" />
+  </a>
+</p>
+
+<p align="center">
+  👉 <a href="Sachin_Salaskar_Pneumatic_Test_Rig_Case_Study.pdf"><b>[ 📥 Click here to view / download the full 3-Page Engineering PDF ]</b></a>
+</p>
 
 ---
 
-### 📊 Key Technical Metrics:
-* **Sample Size:** 20 UUTs total ($2\times$ 10-unit modular test rigs in parallel chambers)
-* **Cyclic Endurance:** 365,000 pressure pulses per unit (simulating 5 years / 1,825 clinical treatments)
-* **Test Conditions:** Continuous 45-day operation at $40^\circ\text{C}$ ambient temperature
-* **Acceptance Benchmarks:** Pressurization time $<40\text{ sec}$ to $2800\text{ mbar}$, leak decay $<3.4\text{ mbar/min}$
-
+### 🔧 Key Technical Competencies Demonstrated:
+* **Chamber Envelope Optimization:** Designed dual-tier aluminum T-slot frame ($938.10 \times 688.10 \times 688.10\text{ mm}$) to fit standard environmental chamber volumes.
+* **Dual-Chamber Parallel Testing:** Built and synchronized two identical 10-UUT test setups to satisfy the $n=20$ statistical sample size requirement.
+* **Automated Closed-Loop DAQ:** Integrated Arduino UNO + Data Logger Shield to log pressure decay curves ($2600 \leftrightarrow 2800\text{ mbar}$) and cycle counts.
+* **Rigorous Acceptance Criteria:** Verified that pressure decay remained strictly $< 3.4\text{ mbar/min}$ @ $2800\text{ mbar}$ across all 365,000 duty cycles.
 ---
 
 ### 2. X-Ray C-Arm Mechanical Durability & Structural Fatigue Testing

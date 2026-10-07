@@ -31,13 +31,13 @@ Passionate Mechanical Engineer specializing in **Test Bench Design, Pneumatic Ac
 
 <p align="center">
   <a href="Sachin_Salaskar_Pneumatic_Test_Rig_Case_Study.pdf">
-    <img src="slide1_preview.png" width="30%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="Slide 1 Preview" />
+    <img src="slide1_preview.PNG" width="31%" alt="Slide 1 Preview" />
   </a>
   <a href="Sachin_Salaskar_Pneumatic_Test_Rig_Case_Study.pdf">
-    <img src="slide2_preview.png" width="30%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="Slide 2 Preview" />
+    <img src="slide2_preview.PNG" width="31%" alt="Slide 2 Preview" />
   </a>
   <a href="Sachin_Salaskar_Pneumatic_Test_Rig_Case_Study.pdf">
-    <img src="slide3_preview.png" width="30%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="Slide 3 Preview" />
+    <img src="slide3_preview.PNG" width="31%" alt="Slide 3 Preview" />
   </a>
 </p>
 
